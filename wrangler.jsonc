@@ -1,8 +1,6 @@
 {
   "name": "tatami-litebans-web",
-  "compatibility_date": "2025-06-23",
-  "assets": {
-    "directory": ".open-next/assets",
-    "binding": "ASSETS"
-  }
+  "compatibility_date": "2025-08-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "pages_build_output_dir": ".vercel/output/static"
 }

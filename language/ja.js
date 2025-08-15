@@ -1,10 +1,10 @@
 const language = {
   info: {
-    country_code: "GB",
-    lang_name: "English",
+    country_code: "JP",
+    lang_name: "日本語",
   },
   site: {
-    description: "TatamiServer Litebans Information",
+    description: "畳サーバー Litebans情報",
   },
   words: {
     bans: {
@@ -27,10 +27,10 @@ const language = {
     no: "No",
     player: "Player",
     staff: "Staff",
-    reason: "Reason",
-    date: "Date",
-    expires: "Expires",
-    originServer: "Origin server",
+    reason: "理由",
+    date: "日付",
+    expires: "期限",
+    originServer: "サーバー",
     notified: "Notified",
   },
   pages: {

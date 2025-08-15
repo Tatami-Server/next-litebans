@@ -8,9 +8,13 @@
     "start": "next start",
     "lint": "next lint",
     "setup:db:generate": "prisma generate",
-    "setup:db:pull": "prisma db pull"
+    "setup:db:pull": "prisma db pull",
+    "pages:build": "bunx @cloudflare/next-on-pages",
+    "preview": "bun run pages:build && wrangler pages dev",
+    "deploy": "bun run pages:build && wrangler pages deploy"
   },
   "dependencies": {
+    "@cloudflare/next-on-pages": "^1.13.13",
     "@prisma/client": "^5.13.0",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
