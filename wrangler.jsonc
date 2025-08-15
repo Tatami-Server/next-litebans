@@ -1,7 +1,8 @@
 {
-  "name": "portfolio-blog",
+  "name": "tatami-litebans-web",
   "compatibility_date": "2025-06-23",
   "assets": {
-    "directory": "./"
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
   }
 }
